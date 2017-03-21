@@ -3,7 +3,8 @@ package com.smapley.lottery;
 import com.smapley.base.BaseData;
 
 /**
- * Created by wuzhixiong on 2017/3/13.
+ * Created by eric on 2017/3/13.
+ * 数据
  */
 
 public class MyData extends BaseData {

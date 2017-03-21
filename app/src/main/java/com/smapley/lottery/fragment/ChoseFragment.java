@@ -8,7 +8,8 @@ import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.ViewInject;
 
 /**
- * Created by wuzhixiong on 2017/3/19.
+ * Created by eric on 2017/3/19.
+ * 选号
  */
 @ContentView(R.layout.fragment_chose)
 public class ChoseFragment extends BaseFragment {

@@ -8,7 +8,8 @@ import org.xutils.BuildConfig;
 import org.xutils.x;
 
 /**
- * Created by wuzhixiong on 2017/3/13.
+ * Created by eric on 2017/3/13.
+ * Application
  */
 
 public class BaseApplication extends Application {
@@ -41,5 +42,13 @@ public class BaseApplication extends Application {
         setShared= getSharedPreferences(BaseData.SETSHARED,MODE_PRIVATE);
 
         Log.d("-----------------","application started");
+    }
+
+    public SharedPreferences getUserShared() {
+        return userShared;
+    }
+
+    public SharedPreferences getSetShared() {
+        return setShared;
     }
 }

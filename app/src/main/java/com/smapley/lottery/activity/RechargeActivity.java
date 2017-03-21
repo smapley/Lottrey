@@ -12,7 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by wuzhixiong on 2017/3/19.
+ * Created by eric on 2017/3/19.
+ * 充值
  */
 @ContentView(R.layout.activity_recharge)
 public class RechargeActivity extends BaseActivity {
@@ -45,7 +46,7 @@ public class RechargeActivity extends BaseActivity {
         showBack();
         setTitle(R.string.charge);
 
-        viewList=new ArrayList();
+        viewList=new ArrayList<>();
         viewList.add(item1);
         viewList.add(item2);
         viewList.add(item3);
@@ -66,10 +67,8 @@ public class RechargeActivity extends BaseActivity {
     private void onClick(View view){
         switch (view.getId()){
             case R.id.charge_weixin:
-                System.out.println("weiixn");
                 break;
             case R.id.charge_zhifubao:
-                System.out.println("zhifubao");
                 break;
             default:
                 for(View v:viewList){

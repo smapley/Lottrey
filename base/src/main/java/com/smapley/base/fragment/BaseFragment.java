@@ -9,7 +9,8 @@ import android.view.ViewGroup;
 import org.xutils.x;
 
 /**
- * Created by wuzhixiong on 2017/3/18.
+ * Created by eric on 2017/3/18.
+ * 基础
  */
 
 public abstract class BaseFragment extends Fragment {

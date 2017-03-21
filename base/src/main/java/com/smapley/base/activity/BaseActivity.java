@@ -5,7 +5,8 @@ import android.support.annotation.Nullable;
 import org.xutils.x;
 
 /**
- * Created by wuzhixiong on 2017/3/13.
+ * Created by eric on 2017/3/13.
+ * 基础Activity
  */
 
 public abstract class BaseActivity extends MyActionBarActivity {

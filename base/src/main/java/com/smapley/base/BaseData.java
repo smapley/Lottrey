@@ -1,7 +1,8 @@
 package com.smapley.base;
 
 /**
- * Created by wuzhixiong on 2017/3/13.
+ * Created by eric on 2017/3/13.
+ * 基础数据
  */
 
 public class BaseData {

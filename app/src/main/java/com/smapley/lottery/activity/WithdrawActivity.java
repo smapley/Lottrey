@@ -5,7 +5,8 @@ import com.smapley.lottery.R;
 import org.xutils.view.annotation.ContentView;
 
 /**
- * Created by wuzhixiong on 2017/3/20.
+ * Created by eric on 2017/3/20.
+ * 提现
  */
 @ContentView(R.layout.activity_withdraw)
 public class WithdrawActivity extends BaseActivity{
