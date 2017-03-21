@@ -31,6 +31,7 @@ public class KeyboardUtil {
         keyboardView = (KeyboardView) context.findViewById(R.id.keyboard_view);
         keyboardView.setKeyboard(keyboard);
         keyboardView.setEnabled(true);
+        keyboardView.setPreviewEnabled(false);
         keyboardView.setOnKeyboardActionListener(new OnKeyboardActionListener() {
             @Override
             public void swipeUp() {
@@ -58,21 +59,11 @@ public class KeyboardUtil {
 
             @Override
             public void onPress(int primaryCode) {
-                checkIShowPrewiew(primaryCode);
             }
 
-            private void checkIShowPrewiew(int primaryCode) {
-                List<Integer> list = Arrays.asList(Keyboard.KEYCODE_CANCEL, Keyboard.KEYCODE_DELETE, Keyboard.KEYCODE_SHIFT, 46, 32, 44);
-                if (list.contains(primaryCode)) {
-                    keyboardView.setPreviewEnabled(false);
-                } else {
-                    keyboardView.setPreviewEnabled(true);
-                }
-            }
 
             @Override
             public void onKey(int primaryCode, int[] keyCodes) {
-                checkIShowPrewiew(primaryCode);
                 Log.i("KeyBoard", "primaryCode=" + primaryCode);
 
                 Editable editable = editText.getText();

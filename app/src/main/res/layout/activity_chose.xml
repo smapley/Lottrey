@@ -66,8 +66,6 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:keyBackground="@color/white"
-        android:keyPreviewHeight="50dp"
-        android:keyPreviewLayout="@layout/view_keyborad_preview"
         android:keyTextColor="@color/black"
         android:keyTextSize="18sp" />
 
