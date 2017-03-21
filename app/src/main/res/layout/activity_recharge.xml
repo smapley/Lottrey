@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/gray2"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/charge_num"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="right|center_vertical"
+            android:text="10"
+            android:textColor="@color/red5"
+            android:textSize="@dimen/big" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="left|center_vertical"
+            android:text="@string/yuan"
+            android:textColor="@color/red5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/charge_item1"
+            style="@style/charge_item"
+            android:tag="10"
+            android:background="@mipmap/choose_pre">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="10" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/charge_item2"
+            android:tag="20"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="20" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/charge_item3"
+            android:tag="30"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="30" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/charge_item4"
+            android:tag="50"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="50" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/charge_item5"
+            android:tag="100"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="100" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/charge_item6"
+            android:tag="150"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="150" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/charge_item7"
+            android:tag="200"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="200" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/charge_item8"
+            android:tag="300"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="300" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/charge_item9"
+            android:tag="500"
+            style="@style/charge_item">
+
+            <TextView
+                style="@style/charge_item_num"
+                android:text="500" />
+
+            <TextView style="@style/charge_item_yuan" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/charge_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_weixin_pre"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:drawableLeft="@mipmap/icon_weixin"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/weixin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/big" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/charge_zhifubao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_send_nor"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:drawableLeft="@mipmap/icon_zhifubao"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:text="@string/weixin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/big" />
+    </LinearLayout>
+
+</LinearLayout>

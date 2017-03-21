@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/chose_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/chose_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray2"
+        android:padding="8dp">
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:hint="@string/number"
+            android:layout_toLeftOf="@+id/chose_key_state"/>
+        <TextView
+            android:id="@+id/chose_key_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="现"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="@dimen/big"
+            android:padding="10dp"
+            android:textColor="@color/blue4"
+            android:background="@mipmap/round_blue"/>
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="8dp"
+            android:hint="@string/jine"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/chose_key_state"
+            android:inputType="none" />
+    </RelativeLayout>
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@color/white"
+        android:keyPreviewHeight="50dp"
+        android:keyPreviewLayout="@layout/view_keyborad_preview"
+        android:keyTextColor="@color/black"
+        android:keyTextSize="18sp" />
+
+</LinearLayout>

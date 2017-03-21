@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smapley.lottery.fragment.UserFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/ad_02">
+            <ImageView
+                android:id="@+id/user_qiandai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_qiandai"
+                android:layout_centerInParent="true"
+                android:paddingBottom="15dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/user_qiandai">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/money"/>
+                <TextView
+                    android:id="@+id/user_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red5"
+                    android:textSize="27sp"
+                    android:text="9999"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonLinHeight">
+            <Button
+                android:id="@+id/user_charge"
+                android:text="@string/charge"
+                android:drawableTop="@drawable/selector_chongzhi"
+                style="@style/user_btn" />
+            <Button
+                android:id="@+id/user_withdraw"
+                android:text="@string/extract"
+                android:drawableTop="@drawable/selector_tixian"
+                style="@style/user_btn" />
+            <Button
+                android:id="@+id/user_set"
+                android:text="@string/set"
+                android:drawableTop="@drawable/selector_shezhi"
+                style="@style/user_btn" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/user_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:layout_margin="40dp"
+            android:textSize="20sp"
+            android:background="@drawable/selector_tuichudenglu"
+            android:text="@string/logout"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

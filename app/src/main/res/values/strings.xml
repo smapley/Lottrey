@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">lottery</string>
+    <string name="title_home">主页</string>
+    <string name="title_user">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="money">金额：</string>
+    <string name="charge">充值</string>
+    <string name="extract">提现</string>
+    <string name="set">设置</string>
+    <string name="logout">退出登录</string>
+    <string name="chose">选号</string>
+    <string name="table">奖表</string>
+    <string name="plan">方案</string>
+    <string name="shuangseqiu">双色球</string>
+    <string name="chose_menu_item1">七星彩</string>
+    <string name="chose_menu_item2">福彩3D</string>
+    <string name="chose_menu_item3">双色球</string>
+    <string name="zushu">组数：</string>
+    <string name="yue">余额：</string>
+    <string name="zonge">总额：</string>
+    <string name="number">号码</string>
+    <string name="jine">金额</string>
+    <string name="main">首页</string>
+    <string name="title_chose">选号</string>
+    <string name="title_shareplan">分享方案</string>
+    <string name="input_monry">请输入红包金额</string>
+    <string name="input_account">输入对方账号</string>
+    <string name="sendHistory">发送历史</string>
+    <string name="yuan">元</string>
+    <string name="weixin">微信</string>
+    <string name="zhifubao">支付宝</string>
+    <string name="name">姓名</string>
+    <string name="car_account">卡号</string>
+    <string name="bank">银行</string>
+    <string name="withdraw_yue">提现余额</string>
+    <string name="title_withdraw">提现</string>
+    <string name="shoukuanren">收款人姓名</string>
+    <string name="card_num">收款人储蓄卡号</string>
+</resources>

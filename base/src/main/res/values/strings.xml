@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">base</string>
+    <string name="confirm">确定</string>
+    <string name="tools">工具</string>
+    <string name="main">首页</string>
+    <string name="send">发送</string>
+    <string name="accept">接收</string>
+</resources>
